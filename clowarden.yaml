@@ -1,0 +1,26 @@
+teams:
+  - name: kapunsdk-maintainers
+    maintainers:
+      - ryjones
+    members:
+      - Mawdie
+      - UBaggeler
+      - lebedenko-ubique
+      - ubamrein
+  - name: lf-staff
+    maintainers:
+      - ryjones
+    members:
+      - LF-Europe
+      - SeanBohan
+      - thelinuxfoundation
+
+repositories:
+  - name: .github
+    teams:
+      lf-staff: maintain
+    visibility: public
+  - name: tsc
+    teams:
+      lf-staff: maintain
+    visibility: public
