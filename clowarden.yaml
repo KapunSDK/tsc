@@ -14,10 +14,20 @@ teams:
       - LF-Europe
       - SeanBohan
       - thelinuxfoundation
+  - name: owners
+    maintainers:
+      - ryjones
+    members:
+      - Mawdie
 
 repositories:
   - name: .github
     teams:
+      lf-staff: maintain
+    visibility: public
+  - name: kapun-sdk
+    teams:
+      kapunsdk-maintainers: maintain
       lf-staff: maintain
     visibility: public
   - name: tsc
